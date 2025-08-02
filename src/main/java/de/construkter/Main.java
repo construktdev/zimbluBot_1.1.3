@@ -48,7 +48,7 @@ public class Main extends JavaUtils {
                     .addEventListeners(new VoiceListener())
                     .setRawEventsEnabled(true)
                     .setMemberCachePolicy(MemberCachePolicy.ALL)
-                    .enableCache(CacheFlag.VOICE_STATE) //Danke Miraculixx
+                    .enableCache(CacheFlag.VOICE_STATE)
                     .build();
             Logger.event("Updating Commands");
             jda.updateCommands().addCommands(
